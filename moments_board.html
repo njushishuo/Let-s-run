@@ -25,11 +25,10 @@
                         </a>
                         <ul id="nav-mobile" class="right">
 
-                            <li><a href="moments.html"><span class="white-text center-align">Moments</span></a></li>
+                            <li><a href="moments_board.html"><span class="white-text center-align">Moments</span></a></li>
                             <li><a href=""><span class="white-text center-align">Competence</span></a></li>
-                            <li><a href=""><span class="white-text center-align">Friends</span></a></li>
                             <li>
-                                <a href="profile.html">
+                                <a href="user_profile.html">
                                     <div class="chip blue lighten-1">
                                         <img src="img/avatar.jpeg" alt="Contact Person">
                                         <span class="avatar_username white-text">Shuo</span>
@@ -49,6 +48,23 @@
         <div class="row white">
             <!--Content Board-->
             <div class="col s12  m12 l8 offset-l2 " style="padding: 5px;">
+                <!--二级功能按钮-->
+                <hr>
+                <div class="row white" style="margin: 0px" >
+                    <div class="col s1 offset-s5">
+                        <a href="moments_board.html" >
+                            <span class="blue-text center-align waves-effect waves-light">Board</span>
+                        </a>
+                    </div>
+                    <div class="col s1 ">
+                        <a href="moments_photo.html" >
+                            <span class="blue-text center-align waves-effect waves-light">Photo</span>
+                        </a>
+                    </div>
+                </div>
+                <hr>
+
+
                 <div class="row ">
                     <!--Moments Create board and list-->
                     <div class="col s12 m12 l8" >
@@ -72,10 +88,10 @@
                                 <div class="row">
                                     <div class="col s12">
                                         <div class="row">
-                                            <div class="col s12 m2 l2">
-                                                <img  class="avatar_img" src="img/avatar.jpeg" alt="Contact Person">
+                                            <div class="col s12 m12 l2">
+                                                <img class="avatar_img_create" src="img/avatar.jpeg" alt="Contact Person">
                                             </div>
-                                            <div class="input-field col s12 m10 l10">
+                                            <div class="input-field col s12 m12 l10">
                                                 <label for="textarea1">What's on your mind?</label>
                                                 <textarea id="textarea1" class="materialize-textarea" style="padding: 5px"></textarea>
                                             </div>
@@ -85,8 +101,6 @@
                                                 <!--TODO display picture-->
                                             </div>
                                         </div>
-
-
                                     </div>
                                 </div>
                                 <hr style=" opacity:0.3;">
@@ -100,14 +114,72 @@
                         </div>
 
                         <!--Moments come here-->
+                        <div class="card">
+                            <!--Avatar here-->
+                            <div class="row" style="margin-bottom: 0px">
+                                <div class="col s12 m12 l2" style="padding:5px">
+                                    <img  class="avatar_img_moment" src="img/avatar1.png" alt="Contact Person">
+                                </div>
+                                <div class="input-field col s12 m12 l10" style="padding-left: 0px;">
+                                    <span class="blue-text lighten-2" style="font-size: 1em;font-weight:300">Newton</span><br>
+                                    <span class="grey-text lighten-2" style="font-size: 1em;font-weight:300">@NanJing</span>
+                                </div>
+                            </div>
+                            <hr style=" opacity:0.3;">
+                            <!--img here-->
+                            <div class="card-image">
+                                <img src="img/c1.jpg">
+                            </div>
+                            <!--discription here-->
+                            <div class="card-content">
+                                <p>I am a very simple card. I am good at containing small bits of information.
+                                    I am convenient because I require little markup to use effectively.</p>
+                            </div>
+                            <!--Actions here-->
+                            <div class="card-action">
+                                <label>
+                                    <i class="material-icons">thumb_up</i>
+                                    <span style="font-size: 2.2em;">18</span>
+                                </label>
+                            </div>
+                        </div>
 
 
 
+                        <div class="card">
+                            <!--Avatar here-->
+                            <div class="row" style="margin-bottom: 0px">
+                                <div class="col s12 m12 l2" style="padding:5px">
+                                    <img  class="avatar_img_moment" src="img/avatar2.jpg" alt="Contact Person">
+                                </div>
+                                <div class="input-field col s12 m12 l10" style="padding-left: 0px;">
+                                    <span class="blue-text lighten-2" style="font-size: 1em;font-weight:300">Newton</span><br>
+                                    <span class="grey-text lighten-2" style="font-size: 1em;font-weight:300">@NanJing</span>
+                                </div>
+                            </div>
+                            <hr style=" opacity:0.3;">
+                            <!--img here-->
+                            <div class="card-image">
+                                <img src="img/c2.jpg">
+                            </div>
+                            <!--discription here-->
+                            <div class="card-content">
+                                <p>I am a very simple card. I am good at containing small bits of information.
+                                    I am convenient because I require little markup to use effectively.</p>
+                            </div>
+                            <!--Actions here-->
+                            <div class="card-action">
+                                <label>
+                                    <i class="material-icons">thumb_up</i>
+                                    <span style="font-size: 2.2em;">16</span>
+                                </label>
+                            </div>
+                        </div>
                     </div>
 
                     <!--TODO Suggested Or Rank-->
                     <div class="col s12 m12 l4">
-                        <div class="card" style="padding: 10px">
+                        <div class="card">
 
                             <span class="blue-text lighten-2" style="font-size: 2em;font-weight:300">Suggested Pages</span>
 
