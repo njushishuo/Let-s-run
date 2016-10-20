@@ -24,7 +24,13 @@
     margin:5px;
 }
 
-.avatar_img_change{
+.avatar_img_competition{
+    height:50px;
+    width: 50px;
+    margin-top:5px;
+}
+
+.avatar_img_update {
     height:200px;
     width: 200px;
     margin:5px;
@@ -39,15 +45,11 @@
     font-size: 1.2em;
 }
 
-.bt_add_facebook{
-    border: 2px dashed #dddfe2;
-    border-radius: 2px;
-    box-sizing: border-box;
-    display: inline-block;
-    height: 100px;
-    margin-right: 5px;
-    position: relative;
-    width: 100px;
+
+.text_comptn{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
 }
 
 
