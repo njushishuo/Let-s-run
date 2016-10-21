@@ -46,13 +46,45 @@
 }
 
 
-.text_comptn{
+.text_compete {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 1.2em;
 }
 
 
+.text_stats {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 2em;
+}
+
 .card{
      padding: 10px;
+}
+
+body{
+
+    font-family :
+    "Microsoft Yahei",
+    "Microsoft YaHei UI",
+    "WenQuanYi Micro Hei",
+    "WenQuanYi Zen Hei",
+    "Noto Sans CJK SC",
+    "Microsoft JhengHei UI",
+    "Microsoft JhengHei",
+    "PingFang TC",
+    "Lantinghei TC",
+    "Noto Sans CJK TC",
+    "Helvetica Neue",
+    "Helvetica",
+    "PingFang SC";
+}
+
+
+
+.container{
+    width: 80%;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }

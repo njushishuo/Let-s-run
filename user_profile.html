@@ -16,35 +16,36 @@
 
 <body>
 
-    <header>
-        <div class="row">
-            <div class="col s12" style="padding: 0px">
 
-                <nav class="navbar-fixed">
-                    <div class="nav-wrapper blue lighten-1">
+<header>
+    <div class="row">
+        <div class="col s12" style="padding: 0px">
 
-                        <a href="">
-                            <span class="logo" > Logo</span>
-                        </a>
-                        <ul id="nav-mobile" class="right">
+            <nav class="navbar-fixed">
+                <div class="nav-wrapper blue lighten-1">
 
-                            <li><a href="moments_board.html"><span class="white-text center-align">Moments</span></a></li>
-                            <li><a href="competition_board.html"><span class="white-text center-align">Competence</span></a></li>
-                            <li class="active">
-                                <a href="user_profile.html">
-                                    <div class="chip blue lighten-1">
-                                        <img src="img/avatar.jpeg" alt="Contact Person">
-                                        <span class="avatar_username white-text">Shuo</span>
-                                    </div>
-                                </a>
-                            </li>
-                        </ul>
+                    <a href="">
+                        <span class="logo" > Logo</span>
+                    </a>
+                    <ul id="nav-mobile" class="right">
 
-                    </div>
-                </nav>
-            </div>
+                        <li><a href="moments_board.html"><span class="white-text center-align">动态</span></a></li>
+                        <li><a href="competition_board.html"><span class="white-text center-align">竞赛</span></a></li>
+                        <li class="active">
+                            <a href="user_profile.html">
+                                <div class="chip blue lighten-1">
+                                    <img src="img/avatar.jpeg" alt="Contact Person">
+                                    <span class="avatar_username white-text">Shuo</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav>
         </div>
-    </header>
+    </div>
+</header>
 
 
     <main>
@@ -56,23 +57,23 @@
                 <div class="row white" style="margin: 0px" >
                     <div class="col s1 offset-s4">
                         <a href="user_profile.html" >
-                            <span class="blue-text center-align waves-effect waves-light">About</span>
+                            <span class="blue-text center-align waves-effect waves-light">个人资料</span>
                         </a>
                     </div>
 
                     <div class="col s1 ">
                         <a href="user_record.html" >
-                            <span class="blue-text center-align waves-effect waves-light">Record</span>
+                            <span class="blue-text center-align waves-effect waves-light">运动记录</span>
                         </a>
                     </div>
                     <div class="col s1 ">
                         <a href="user_stats.html" >
-                            <span class="blue-text center-align waves-effect waves-light">Statistic</span>
+                            <span class="blue-text center-align waves-effect waves-light">数据统计</span>
                         </a>
                     </div>
                     <div class="col s1 ">
                         <a href="user_friends.html" >
-                            <span class="blue-text center-align waves-effect waves-light">Friends</span>
+                            <span class="blue-text center-align waves-effect waves-light">我的朋友</span>
                         </a>
                     </div>
 
@@ -84,14 +85,10 @@
 
                        <div class="card white lighten-1">
                            <div class="card-content">
-                               <!--User Info-->
-                               <span class="grey-text" style="font-size: 2em">User Info</span>
-
                                <!--更换头像-->
                                <div class="row">
-                                   <br>
                                    <div class="col s3 offset-s1 ">
-                                       <Span class="text_label grey-text">Profile Picture</Span> <br>
+
                                        <img class="avatar_img_update" src="img/avatar.jpeg" alt="Contact Person" >
                                    </div>
                                    <div class="col s3 offset-s1 ">
@@ -99,7 +96,7 @@
                                        <form action="#">
                                            <div class="file-field input-field">
                                                <div class="waves-effect waves-light btn-large white lighten-2">
-                                                   <span class="grey-text" >Upload picture</span>
+                                                   <span class="grey-text" >上传新头像</span>
                                                    <input type="file">
                                                </div>
                                            </div>
@@ -112,7 +109,7 @@
                                    <form class="col s10 offset-s1 black-text">
                                        <div class="row" style="margin:0px">
                                            <div class="input-field col s12">
-                                               <Span class="text_label grey-text">Username</Span> <br>
+                                               <Span class="text_label grey-text">用户名</Span> <br>
                                                <input value="ss14" id="username" type="text" class="validate" >
 
                                            </div>
@@ -121,11 +118,11 @@
 
                                        <div class="row" >
                                            <div class="input-field col s3">
-                                               <Span class="text_label grey-text">Gender</Span> <br>
+                                               <Span class="text_label grey-text">性别</Span> <br>
 
                                                <p>
                                                    <input checked="checked" name="gender" type="radio" id="male" />
-                                                   <label for="male">Male</label>
+                                                   <label for="male">男生</label>
                                                </p>
 
                                            </div>
@@ -133,7 +130,7 @@
                                                <br>
                                                <p>
                                                    <input name="gender" type="radio" id="famale" />
-                                                   <label for="famale">Famale</label>
+                                                   <label for="famale">女生</label>
                                                </p>
 
                                            </div>
@@ -143,13 +140,13 @@
 
                                        <div class="row">
                                            <div class="input-field col s12">
-                                               <span class="text_label grey-text">Birthday</span><br>
+                                               <span class="text_label grey-text">生日</span><br>
                                                <input value="19 October, 2016" id="birthday" type="date" class="datepicker"/>
                                            </div>
                                        </div>
                                        <div class="row">
                                            <div class="input-field col s12">
-                                               <span class="text_label grey-text">Email</span><br>
+                                               <span class="text_label grey-text">邮件</span><br>
                                                <input value="675342907@qq.com" id="email" type="email" class="validate">
 
                                            </div>
@@ -158,37 +155,30 @@
                                        <div class="row">
                                            <div class="input-field col s3">
                                                <p>
-                                                   <Span class="text_label grey-text">Interest</Span> <br>
+                                                   <Span class="text_label grey-text">兴趣</Span> <br>
                                                    <input type="checkbox" id="Jogging"  />
-                                                   <label for="Jogging">Jogging</label>
-                                               </p>
-                                           </div>
-                                           <div class="input-field col s3">
-                                               <p>
-                                                   <br>
-                                                   <input type="checkbox" id="Strolling"  />
-                                                   <label for="Strolling"></label>
+                                                   <label for="Jogging">慢跑</label>
                                                </p>
                                            </div>
                                            <div class="input-field col s3">
                                                <p>
                                                    <br>
                                                    <input type="checkbox" id="Running" checked="checked" />
-                                                   <label for="Running">Running</label>
+                                                   <label for="Running">跑步</label>
                                                </p>
                                            </div>
                                            <div class="input-field col s3">
                                                <p>
                                                    <br>
-                                                   <input type="checkbox" id="Marathon"  />
-                                                   <label for="Marathon">Marathon</label>
+                                                   <input type="checkbox" id="Cycling"  />
+                                                   <label for="Cycling">骑行</label>
                                                </p>
                                            </div>
                                        </div>
 
                                        <div class="row">
                                             <div class="input-field col s12">
-                                                <span class="text_label grey-text">Bio</span><br>
+                                                <span class="text_label grey-text">自我介绍</span><br>
                                                 <textarea  id="textarea1" class="materialize-textarea"></textarea>
 
                                             </div>
@@ -197,7 +187,7 @@
                                        <div class="row">
                                            <div class="input-field col s4 offset-s4">
                                                 <button class="btn yellow lighten-2 waves-effect waves-light " type="submit" name="action">
-                                                    Update Profile
+                                                    更新
                                                 </button>
                                            </div>
 

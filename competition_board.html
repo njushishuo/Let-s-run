@@ -12,14 +12,10 @@
     <script type="text/javascript" src="js/date_picker/picker.date.js"></script>
     <script type="text/javascript" src="js/date_picker/picker.js"></script>
     <script type="text/javascript" src="js/competition_board.js"></script>
-    <script >
-        $(document).ready(function(){
-
-        });
-    </script>
 </head>
 
 <body>
+
 
 <header>
     <div class="row">
@@ -33,9 +29,9 @@
                     </a>
                     <ul id="nav-mobile" class="right">
 
-                        <li><a href="moments_board.html"><span class="white-text center-align">Moments</span></a></li>
-                        <li><a href="competition_board.html"><span class="white-text center-align">Competition</span></a></li>
-                        <li>
+                        <li><a href="moments_board.html"><span class="white-text center-align">动态</span></a></li>
+                        <li><a href="competition_board.html"><span class="white-text center-align">竞赛</span></a></li>
+                        <li class="active">
                             <a href="user_profile.html">
                                 <div class="chip blue lighten-1">
                                     <img src="img/avatar.jpeg" alt="Contact Person">
@@ -44,7 +40,6 @@
                             </a>
                         </li>
                     </ul>
-
                 </div>
             </nav>
         </div>
@@ -61,12 +56,12 @@
             <div class="row white" style="margin: 0px" >
                 <div class="col s1 offset-s5">
                     <a href="competition_board.html" >
-                        <span class="blue-text center-align waves-effect waves-light">Board</span>
+                        <span class="blue-text center-align waves-effect waves-light">竞赛场</span>
                     </a>
                 </div>
                 <div class="col s1 ">
-                    <a href="competence_mine.html.html" >
-                        <span class="blue-text center-align waves-effect waves-light">Mine</span>
+                    <a href="" >
+                        <span class="blue-text center-align waves-effect waves-light">我的竞赛</span>
                     </a>
                 </div>
             </div>
@@ -81,7 +76,7 @@
                         <!--Header-->
                         <div class="row">
                             <div class="col s6">
-                                <span class="black-text lighten-2" style="font-size: 1.5em" >Individual Competition</span>
+                                <span class="black-text lighten-2" style="font-size: 1.5em" >个人竞赛</span>
                             </div>
                         </div>
                         <!--List-->
@@ -91,7 +86,7 @@
                                 <div class="card-panel center-align" style="padding: 0px">
                                             <div class="row green white-text">
                                                 <div class="col s12">
-                                                    <span class="text_comptn">Undergoing</span>
+                                                    <span class="text_compete">进行中</span>
                                                 </div>
                                             </div>
                                             <div class="row">
@@ -100,24 +95,24 @@
                                                     <img src="img/avatar.jpeg" class="avatar_img_competition circle">
                                                 </div>
                                                 <div class="col s12 m3 ">
-                                                    <span>Title</span><br>
+                                                    <span>标题</span><br>
                                                     <p  style="margin: 0px">
-                                                        <span class="text_comptn">Kick Your Ass</span>
+                                                        <span class="text_compete">哈哈哈</span>
                                                     </p>
                                                 </div>
                                                 <div class="col s12 m2">
-                                                    <span>Players</span><br>
-                                                    <span class="text_comptn">5</span>
+                                                    <span>人数</span><br>
+                                                    <span class="text_compete">5</span>
                                                 </div>
                                                 <div class="col s12 m3">
-                                                    <span>Time to begin</span><br>
-                                                    <span class="text_comptn green-text">3</span><span>h</span>
-                                                    <span class="text_comptn green-text">50</span><span>m</span>
-                                                    <span class="text_comptn green-text">18</span><span>s</span>
+                                                    <span>距离开始时间</span><br>
+                                                    <span class="text_compete green-text">3</span><span>h</span>
+                                                    <span class="text_compete green-text">50</span><span>m</span>
+                                                    <span class="text_compete green-text">18</span><span>s</span>
                                                 </div>
                                                 <div class="col s12 m2">
-                                                    <span>Reward</span><br>
-                                                    <span class="text_comptn yellow-text">500</span>
+                                                    <span>奖金</span><br>
+                                                    <span class="text_compete yellow-text">500</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -125,7 +120,7 @@
                                 <div class="card-panel center-align" style="padding: 0px">
                                     <div class="row yellow white-text">
                                         <div class="col s12">
-                                            <span class="text_comptn">Awaiting</span>
+                                            <span class="text_compete">等待中</span>
                                         </div>
                                     </div>
                                     <div class="row">
@@ -134,24 +129,24 @@
                                             <img src="img/avatar1.png" class="avatar_img_competition circle">
                                         </div>
                                         <div class="col s12 m3 ">
-                                            <span>Title</span><br>
+                                            <span>标题</span><br>
                                             <p  style="margin: 0px">
-                                                <span class="text_comptn">Kick Your Ass</span>
+                                                <span class="text_compete">疾风步</span>
                                             </p>
                                         </div>
                                         <div class="col s12 m2">
-                                            <span>Players</span><br>
-                                            <span class="text_comptn">5</span>
+                                            <span>人数</span><br>
+                                            <span class="text_compete">5</span>
                                         </div>
                                         <div class="col s12 m3">
-                                            <span>Time to begin</span><br>
-                                            <span class="text_comptn green-text">3</span><span>h</span>
-                                            <span class="text_comptn green-text">50</span><span>m</span>
-                                            <span class="text_comptn green-text">18</span><span>s</span>
+                                            <span>距离开始时间</span><br>
+                                            <span class="text_compete green-text">3</span><span>h</span>
+                                            <span class="text_compete green-text">50</span><span>m</span>
+                                            <span class="text_compete green-text">18</span><span>s</span>
                                         </div>
                                         <div class="col s12 m2">
-                                            <span>Reward</span><br>
-                                            <span class="text_comptn yellow-text">500</span>
+                                            <span>奖金</span><br>
+                                            <span class="text_compete yellow-text">500</span>
                                         </div>
                                     </div>
                                 </div>
@@ -159,33 +154,33 @@
                                 <div class="card-panel center-align" style="padding: 0px">
                                     <div class="row red lighten-1 white-text">
                                         <div class="col s12">
-                                            <span class="text_comptn">Ending</span>
+                                            <span class="text_compete">即将结束</span>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col s12 m2 ">
                                             <!--<span>Creator</span><br>-->
-                                            <img src="img/avatar2.jpg" class="avatar_img_competition circle">
+                                            <img src="img/avatar.jpeg" class="avatar_img_competition circle">
                                         </div>
                                         <div class="col s12 m3 ">
-                                            <span>Title</span><br>
+                                            <span>标题</span><br>
                                             <p  style="margin: 0px">
-                                                <span class="text_comptn">Kick Your Ass</span>
+                                                <span class="text_compete">一起跑跑看</span>
                                             </p>
                                         </div>
                                         <div class="col s12 m2">
-                                            <span>Players</span><br>
-                                            <span class="text_comptn">5</span>
+                                            <span>人数</span><br>
+                                            <span class="text_compete">5</span>
                                         </div>
                                         <div class="col s12 m3">
-                                            <span>Time to begin</span><br>
-                                            <span class="text_comptn red-text">3</span><span>h</span>
-                                            <span class="text_comptn red-text">50</span><span>m</span>
-                                            <span class="text_comptn red-text">18</span><span>s</span>
+                                            <span>距离开始时间</span><br>
+                                            <span class="text_compete green-text">3</span><span>h</span>
+                                            <span class="text_compete green-text">50</span><span>m</span>
+                                            <span class="text_compete green-text">18</span><span>s</span>
                                         </div>
                                         <div class="col s12 m2">
-                                            <span>Reward</span><br>
-                                            <span class="text_comptn yellow-text">500</span>
+                                            <span>奖金</span><br>
+                                            <span class="text_compete yellow-text">500</span>
                                         </div>
                                     </div>
                                 </div>
@@ -196,7 +191,7 @@
                         <!--Header-->
                         <div class="row">
                             <div class="col s6">
-                                <span class="black-text lighten-2" style="font-size: 1.5em" >Team Competition</span>
+                                <span class="black-text lighten-2" style="font-size: 1.5em" >团队竞赛</span>
                             </div>
                         </div>
                         <!--List-->
@@ -206,7 +201,7 @@
                                 <div class="card-panel center-align" style="padding: 0px">
                                     <div class="row green white-text">
                                         <div class="col s12">
-                                            <span class="text_comptn">Undergoing</span>
+                                            <span class="text_compete">进行中</span>
                                         </div>
                                     </div>
                                     <div class="row">
@@ -215,26 +210,26 @@
                                             <img src="img/avatar.jpeg" class="avatar_img_competition circle">
                                         </div>
                                         <div class="col s12 m3 ">
-                                            <span>Title</span><br>
+                                            <span>标题</span><br>
                                             <p  style="margin: 0px">
-                                                <span class="text_comptn">Kick Your Ass</span>
+                                                <span class="text_compete">伏地魔</span>
                                             </p>
                                         </div>
                                         <div class="col s12 m2">
-                                            <span>Players</span><br>
-                                            <span class="text_comptn red-text">10</span>
+                                            <span>人数</span><br>
+                                            <span class="text_compete red-text">10</span>
                                             <span>VS</span>
-                                            <span class="text_comptn blue-text">10</span>
+                                            <span class="text_compete blue-text">10</span>
                                         </div>
                                         <div class="col s12 m3">
-                                            <span>Time to begin</span><br>
-                                            <span class="text_comptn green-text">3</span><span>h</span>
-                                            <span class="text_comptn green-text">50</span><span>m</span>
-                                            <span class="text_comptn green-text">18</span><span>s</span>
+                                            <span>距离比赛开始时间</span><br>
+                                            <span class="text_compete green-text">3</span><span>h</span>
+                                            <span class="text_compete green-text">50</span><span>m</span>
+                                            <span class="text_compete green-text">18</span><span>s</span>
                                         </div>
                                         <div class="col s12 m2">
-                                            <span>Reward</span><br>
-                                            <span class="text_comptn yellow-text">500</span>
+                                            <span>奖金</span><br>
+                                            <span class="text_compete yellow-text">500</span>
                                         </div>
                                     </div>
                                 </div>
@@ -242,35 +237,35 @@
                                 <div class="card-panel center-align" style="padding: 0px">
                                     <div class="row yellow white-text">
                                         <div class="col s12">
-                                            <span class="text_comptn">Awaiting</span>
+                                            <span class="text_compete">等待中</span>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col s12 m2 ">
                                             <!--<span>Creator</span><br>-->
-                                            <img src="img/avatar1.png" class="avatar_img_competition circle">
+                                            <img src="img/avatar.jpeg" class="avatar_img_competition circle">
                                         </div>
                                         <div class="col s12 m3 ">
-                                            <span>Title</span><br>
+                                            <span>标题</span><br>
                                             <p  style="margin: 0px">
-                                                <span class="text_comptn">Kick Your Ass</span>
+                                                <span class="text_compete">怎么还不开始</span>
                                             </p>
                                         </div>
                                         <div class="col s12 m2">
-                                            <span>Players</span><br>
-                                            <span class="text_comptn red-text">3</span>
+                                            <span>人数</span><br>
+                                            <span class="text_compete red-text">10</span>
                                             <span>VS</span>
-                                            <span class="text_comptn blue-text">3</span>
+                                            <span class="text_compete blue-text">10</span>
                                         </div>
                                         <div class="col s12 m3">
-                                            <span>Time to begin</span><br>
-                                            <span class="text_comptn green-text">3</span><span>h</span>
-                                            <span class="text_comptn green-text">50</span><span>m</span>
-                                            <span class="text_comptn green-text">18</span><span>s</span>
+                                            <span>距离比赛开始时间</span><br>
+                                            <span class="text_compete green-text">3</span><span>h</span>
+                                            <span class="text_compete green-text">50</span><span>m</span>
+                                            <span class="text_compete green-text">18</span><span>s</span>
                                         </div>
                                         <div class="col s12 m2">
-                                            <span>Reward</span><br>
-                                            <span class="text_comptn yellow-text">500</span>
+                                            <span>奖金</span><br>
+                                            <span class="text_compete yellow-text">500</span>
                                         </div>
                                     </div>
                                 </div>
@@ -278,35 +273,35 @@
                                 <div class="card-panel center-align" style="padding: 0px">
                                     <div class="row red lighten-1 white-text">
                                         <div class="col s12">
-                                            <span class="text_comptn">Ending</span>
+                                            <span class="text_compete">即将结束</span>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col s12 m2 ">
                                             <!--<span>Creator</span><br>-->
-                                            <img src="img/avatar2.jpg" class="avatar_img_competition circle">
+                                            <img src="img/avatar.jpeg" class="avatar_img_competition circle">
                                         </div>
                                         <div class="col s12 m3 ">
-                                            <span>Title</span><br>
+                                            <span>标题</span><br>
                                             <p  style="margin: 0px">
-                                                <span class="text_comptn">Kick Your Ass</span>
+                                                <span class="text_compete">普通的比赛</span>
                                             </p>
                                         </div>
                                         <div class="col s12 m2">
-                                            <span>Players</span><br>
-                                            <span class="text_comptn red-text">5</span>
+                                            <span>人数</span><br>
+                                            <span class="text_compete red-text">10</span>
                                             <span>VS</span>
-                                            <span class="text_comptn blue-text">5</span>
+                                            <span class="text_compete blue-text">10</span>
                                         </div>
                                         <div class="col s12 m3">
-                                            <span>Time to begin</span><br>
-                                            <span class="text_comptn red-text">3</span><span>h</span>
-                                            <span class="text_comptn red-text">50</span><span>m</span>
-                                            <span class="text_comptn red-text">18</span><span>s</span>
+                                            <span>距离比赛开始时间</span><br>
+                                            <span class="text_compete green-text">3</span><span>h</span>
+                                            <span class="text_compete green-text">50</span><span>m</span>
+                                            <span class="text_compete green-text">18</span><span>s</span>
                                         </div>
                                         <div class="col s12 m2">
-                                            <span>Reward</span><br>
-                                            <span class="text_comptn yellow-text">500</span>
+                                            <span>奖金</span><br>
+                                            <span class="text_compete yellow-text">500</span>
                                         </div>
                                     </div>
                                 </div>
@@ -320,18 +315,18 @@
                     <div class="pinned">
                         <br>
                         <a href="">
-                            <span class="grey-text lighten-5" style="font-size: 1.5em;font-weight: 300" >Category</span>
+                            <span class="grey-text lighten-5" style="font-size: 1.2em;font-weight: 300" >竞赛类型</span>
                         </a>
                         <hr style=" opacity:0.3;">
                         <ul class="section table-of-contents" style="margin-top: 0px;padding-top:0px;">
                             <li>
                                 <a href="#individual">
-                                    <span >Individual</span>
+                                    <span >个人竞赛</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="#team">
-                                    <span >Team</span>
+                                    <span >团队竞赛</span>
                                 </a>
                             </li>
                         </ul>
@@ -362,13 +357,13 @@
         <div class="modal-content">
             <!--基础信息-->
             <div class="row">
-                <span class="right grey-text lighten-1" style="font-size: 1.5em;font-weight: 300" >Individual Competition</span>
+                <span class="right grey-text lighten-1" style="font-size: 1.5em;font-weight: 300" >个人竞赛</span>
                 <br>
                 <form class="col s10 offset-s1 black-text">
                     <div class="row" style="margin:0px">
                         <div class="input-field col s6">
                             <input  id="i_compName" type="text" class="validate" >
-                            <label for="i_compName">Name</label>
+                            <label for="i_compName">标题</label>
                         </div>
                     </div>
 
@@ -383,13 +378,13 @@
                         <div class="input-field col s12 m6 l6" style="margin-top: 0px" >
                             <p>
                                 <input checked="checked" name="privacy" type="radio" id="i_public" />
-                                <label for="i_public">Public</label>
+                                <label for="i_public">公开</label>
                             </p>
                         </div>
                         <div class="input-field col s12 m6 l6" style="margin-top: 0px">
                             <p>
                                 <input name="privacy" type="radio" id="i_private" />
-                                <label for="i_private">Private</label>
+                                <label for="i_private">私有</label>
                             </p>
                         </div>
                     </div>
@@ -397,19 +392,19 @@
                     <div class="row">
                         <div class="input-field col s12">
                             <textarea  id="i_intro" class="materialize-textarea"></textarea>
-                            <label for="i_intro">Introduction</label>
+                            <label for="i_intro">介绍</label>
                         </div>
                     </div>
 
                     <div class="row">
                         <div class="input-field col s6">
-                            <label for="i_begin">From</label>
+                            <label for="i_begin">开始时间</label>
                             <br>
                             <input id="i_begin" type="date" class="datepicker">
                         </div>
 
                         <div class="input-field col s6">
-                            <label for="i_end">To</label>
+                            <label for="i_end">结束时间</label>
                             <br>
                             <input id="i_end" type="date" class="datepicker">
                         </div>
@@ -419,7 +414,7 @@
                     <div class="row">
                         <div class="input-field col s4 offset-s4">
                             <button class="btn yellow lighten-2 waves-effect waves-light " type="submit" name="action">
-                                Launch
+                                发布
                             </button>
                         </div>
 
@@ -432,13 +427,13 @@
         <div class="modal-content">
             <!--基础信息-->
             <div class="row">
-                <span class="right grey-text lighten-1" style="font-size: 1.5em;font-weight: 300" >Team Competition</span>
+                <span class="right grey-text lighten-1" style="font-size: 1.5em;font-weight: 300" >团队竞赛</span>
                 <br>
                 <form class="col s10 offset-s1 black-text">
                     <div class="row" style="margin:0px">
                         <div class="input-field col s6">
                             <input  id="t_compName" type="text" class="validate" >
-                            <label for="t_compName">Name</label>
+                            <label for="t_compName">标题</label>
                         </div>
                     </div>
                     <div class="row" style="margin-bottom: 0px">
@@ -451,13 +446,13 @@
                         <div class="input-field col s12 m6 l6" style="margin-top: 0px" >
                             <p>
                                 <input checked="checked" name="privacy" type="radio" id="t_public" />
-                                <label for="t_public">Public</label>
+                                <label for="t_public">公有</label>
                             </p>
                         </div>
                         <div class="input-field col s12 m6 l6" style="margin-top: 0px">
                             <p>
                                 <input name="privacy" type="radio" id="t_private" />
-                                <label for="t_private">Private</label>
+                                <label for="t_private">私有</label>
                             </p>
                         </div>
                     </div>
@@ -476,7 +471,7 @@
                     </div>
                     <div class="row" style="margin-bottom: 0px">
                         <div class="col s12">
-                            <span class="grey-text lighten-2">Num of Members</span>
+                            <span class="grey-text lighten-2">队伍人数</span>
                         </div>
                     </div>
                     <div class="row" >
@@ -502,13 +497,13 @@
                     <div class="row">
                         <div class="input-field col s12">
                             <textarea  id="t_intro" class="materialize-textarea"></textarea>
-                            <label for="t_intro">Introduction</label>
+                            <label for="t_intro">介绍</label>
                         </div>
                     </div>
                     <div class="row">
                         <div class="input-field col s4 offset-s4">
                             <button class="btn yellow lighten-2 waves-effect waves-light " type="submit" name="action">
-                                Launch
+                                发布
                             </button>
                         </div>
                     </div>
