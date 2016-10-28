@@ -13,51 +13,8 @@
 }
 
 
-.avatar_img_create {
-    height:80px;
-    width: 80px;
-}
-
-.avatar_img_moment{
-    height:70px;
-    width: 70px;
-    margin:5px;
-}
-
-.avatar_img_competition{
-    height:50px;
-    width: 50px;
-    margin-top:5px;
-}
-
-.avatar_img_update {
-    height:200px;
-    width: 200px;
-    margin:5px;
-}
 
 
-
-
-.text_label{
-    font-family: "Roboto", sans-serif;
-    font-weight: normal;
-    font-size: 1.2em;
-}
-
-
-.text_compete {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 1.2em;
-}
-
-
-.text_stats {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 2em;
-}
 
 .card{
      padding: 10px;
@@ -80,8 +37,6 @@ body{
     "Helvetica",
     "PingFang SC";
 }
-
-
 
 .container{
     width: 80%;

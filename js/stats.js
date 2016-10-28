@@ -10,7 +10,7 @@ $(document).ready(function () {
 function distant() {
     // 基于准备好的dom，初始化echarts实例
     var myChart = echarts.init(document.getElementById('barChart_dist'),'macarons');
-
+    var color= ['#2196f3','#90caf9','#006064'];
     // 指定图表的配置项和数据
     option = {
         tooltip: {
@@ -27,7 +27,7 @@ function distant() {
             }
         },
         legend: {
-            data:['距离','时间']
+            data:['距离','时长']
         },
         xAxis: [
             {
@@ -45,6 +45,11 @@ function distant() {
                 min: 0,
                 max: 10,
                 position: 'left',
+                axisLine: {
+                    lineStyle: {
+                        color: color[2]
+                    }
+                },
                 axisLabel: {
                     formatter: '{value} 千米'
                 }
@@ -56,6 +61,11 @@ function distant() {
                 max: 12,
                 position: 'right',
                 offset: 0,
+                axisLine: {
+                    lineStyle: {
+                        color: color[2]
+                    }
+                },
                 axisLabel: {
                     formatter: '{value} 小时'
                 }
@@ -66,16 +76,19 @@ function distant() {
             {
                 name:'距离',
                 type:'bar',
-                data:[2.0, 4.9, 7.0, 1.0, 2.5, 6.8, 3.6]
+                data:[2.0, 4.9, 7.0, 1.0, 2.5, 6.8, 3.6],
+                // color:color[0]
             },
             {
                 name:'时长',
                 type:'bar',
                 yAxisIndex: 1,
-                data:[2.0, 1.6, 4.0, 6.0, 5.5, 2.8, 5.6]
+                data:[2.0, 1.6, 4.0, 6.0, 5.5, 2.8, 5.6],
+                // color:color[1]
             }
         ],
-        color: ['#2196f3','#90caf9 ' ]
+        color: ['#2196f3','#90caf9']
+
     };
 
     // 使用刚指定的配置项和数据显示图表。
@@ -90,7 +103,7 @@ function distant() {
 function calorie(){
 
     // 基于准备好的dom，初始化echarts实例
-    var myChart = echarts.init(document.getElementById('barChart_calorie'),'macarons');
+    var myChart = echarts.init(document.getElementById('barChart_calorie'),'infographic');
 
 
     // 指定图表的配置项和数据
@@ -156,7 +169,7 @@ function calorie(){
                 return idx * 5;
             }
         }],
-        color:['#2196f3 ']
+        color:['#2196f3' ]
 
     };
 
